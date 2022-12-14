@@ -1,0 +1,78 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	background: rgb(139, 139, 139);
+}
+
+/*RIGHT SIDE*/
+
+.right-side {
+	width: 59%;
+	height: 100%;
+	background: rgb(139, 139, 139);
+	position: fixed;
+	margin: 0;
+	padding: 50px;
+
+	right: 0px;
+	top: 0px;
+}
+
+.General-paragraph {
+	padding: 25px 30px 0px 30px;
+	font-size: larger;
+}
+
+.General-header{
+	margin-left: 25%;
+}
+
+/*LEFT SIDE*/
+
+aside{
+	display: inline-block;
+	background: rgb(139, 139, 139);
+	width: 35%;
+	margin: 0px;
+	padding: 20px;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.section{
+	background-color: #04AA6D;
+	color: white;
+}
+
+.section:hover{
+	color: #000;
+	cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+li{
+	display: block;
+	color: white;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li:hover {
+	background-color: #555;
+	cursor: pointer;
+}
+
+#section-wykres,
+#section-wyrazenia,
+#section-trygonometria,
+#section-plalimetria,
+#section-logarytmy{
+	display: none;
+}
