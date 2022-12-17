@@ -77,3 +77,8 @@ li:hover {
 a{
 	text-decoration: none;
 }
+
+.Mathematic-text{
+	font-family: KaTeX_Math;
+	font-style: italic;
+}
