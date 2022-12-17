@@ -36,7 +36,7 @@ function writeText(){
             clearInterval(typingInterval);
         }
     },15);
-    }
+}
 	
 window.onload = function run() {
 	showAndDisapperar('section-wykres');
