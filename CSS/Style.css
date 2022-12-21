@@ -82,3 +82,49 @@ a{
 	font-family: KaTeX_Math;
 	font-style: italic;
 }
+
+.top-fraction{
+    padding: 0px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.button-fraction{
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0;
+	margin-left: -0.75em;
+	margin-right: 4px;
+}
+
+.description-image{
+	text-align: left;
+	color: rgb(71, 71, 255);
+	font-size: larger;
+}
+
+#page-2{
+	display: none;
+}
+
+.next-page,
+.previous-page,
+.task-button{
+	display: block;
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+	background: #04AA6D;
+	color: white;
+
+	margin-left: 65%;
+}
+
+.next-page:hover,
+.previous-page:hover,
+.task-button:hover{
+	cursor: pointer;
+	background: #555;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+	color:#000
+}

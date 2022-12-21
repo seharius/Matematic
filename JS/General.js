@@ -10,6 +10,19 @@ function showAndDisapperar(idelement)
 	}
 }
 
+function Replace(show, disapperar){
+	if (document.getElementById(show).style.display == "none" && document.getElementById(disapperar).style.display == "block")
+	{
+		document.getElementById(show).style.display = "block";
+		document.getElementById(disapperar).style.display = "none";
+	}
+
+	else {
+		document.getElementById(show).style.display = "none";
+		document.getElementById(disapperar).style.display = "block";
+	}
+}
+
 function animateHeader() {
 	var text = "O naszej stronie"
 
@@ -21,7 +34,7 @@ function animateHeader() {
         } else {
             clearInterval(typingInterval);
         }
-    },300);
+    },200);
 }
 
 function writeText(){
@@ -35,7 +48,7 @@ function writeText(){
         } else {
             clearInterval(typingInterval);
         }
-    },15);
+    },5);
 }
 	
 window.onload = function run() {
@@ -44,6 +57,4 @@ window.onload = function run() {
 	showAndDisapperar('section-trygonometria');
 	showAndDisapperar('section-plalimetria');
 	showAndDisapperar('section-logarytmy');
-	animateHeader();
-	writeText();
 };
